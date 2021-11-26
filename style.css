@@ -1,8 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+
 body {
     background-color: rgb(253, 251, 251);
+    margin: 276px 0 0 0;
+   
 }
 
 #cabecalho {
     position: fixed;
-    top:0
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(to right top, #f4acd6, #ec9ed4, #e391d4, #d885d4, #ca79d6, #bb6ed0, #ab64c9, #9b5ac3, #894cb2, #773fa1, #653290, #542580);
+    color: #b9b6b6f3;
+    text-align: center;
+    margin-top: 0;
+}
+/* backgrond-image que criei no https://mycolor.space/gradient */
+
+#titulo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#subtitulo {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    margin-top: 0px;
+}
+
+#minha_foto {
+    height: 220px;
+    width: 220px;
+    border: 5px solid #ffc700;
+    border-radius: 50%;
+    margin-top: 65px;
+    position: absolute;
+    top: 10px;
+    left: 130px;
+}
+
+#navbar {
+    background-color: rgba(197, 170, 223, 0.993);
+}
+
+#navbar ul {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    border-style:groove;
+    height: 30px;
+    border-color: rgba(197, 170, 223, 0.377);;
+    margin-top: 0;
+}
+
+#navbar li {
+    width: 60px;
+    list-style-type: none; 
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/*FALTA COLOCAR CENTRALIZADO O LINK NAVBAR . 
+O NAVBAR SUBIU*/
+
+#rodape {
+    background-color:#000;
+ 
+    height: 180px;
+    justify-content: center;
+}
+
+/*article e aside precisam ficar um do lado do outro. Precisa ter uma tabela*/
+
+
+
+
+/* modificar nomes de classe, revisar código e centralizar corretamente*/
+footer {
+    background-color:#000;
+    margin-top: 0;
+    height: 160px;
+}
+
+.texto-rodape {
+    color: white;
+    text-align: center;
+    top:50%;
+}
+
+.linha {
+    border: 1px solid #fff;
+    opacity:0.4;
+    margin-left: 320px;
+    margin-right: 320px;
+}
+
+.footer-container{
+    position: relative;
+    border-top: 8px solid #909090;
+}
+
+
+.icons{
+    position: absolute;
+    top:84%;
+    left: 39%;
+   
+}
+
+.rodape-texto {
+    padding-top: 100px;
+}
+
+.icons ul{
+    display: flex;
+    list-style: none;
+    margin-top: 0;
+}
+
+.icons a{
+    display: block;
+    float: left;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #909090;
+    border-radius: 20px;
+    margin-right: 7px;
+    margin-top: 30px;
+}
+
+.icons a:hover{
+    background-color:rgba(142, 90, 190, 0.822);
+}
+
+.icons i{
+    padding: 12px 11px;
+    font-size: 20px;
+    color: #909090;
+    text-align: center;
 }
