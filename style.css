@@ -79,8 +79,42 @@ body {
 
 .link:hover {
     color: #ffc700;
-
 }
+/*article e aside precisam ficar um do lado do outro. Precisa ter uma tabela*/
+
+#primeira-parte,
+#segunda-parte {
+    display: flex;
+}
+
+#licoes_aprendidas,
+#licoes_a_aprender,
+#tabela {
+    width: 300px;
+}
+
+#tabela {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    font-family: serif;
+    font-size: 14px;
+    padding:7px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 #rodape {
@@ -90,7 +124,6 @@ body {
     justify-content: center;
 }
 
-/*article e aside precisam ficar um do lado do outro. Precisa ter uma tabela*/
 
 
 
