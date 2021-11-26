@@ -4,7 +4,7 @@
 
 body {
     background-color: rgb(253, 251, 251);
-    margin: 300px 0 0 0;
+    margin: 250px 0 0 0;
    
 }
 
@@ -90,49 +90,49 @@ body {
 #licoes_aprendidas,
 #licoes_a_aprender,
 #tabela {
-    width: 300px;
+    width: 360px;
 }
+
+#licoes_aprendidas,
+#licoes_a_aprender{
+    margin-top: 80px;
+    font-family: 'Courier New', Courier, monospace;   
+}
+
+
+#licoes_aprendidas li, 
+#licoes_a_aprender li{
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 30px;
+    margin-left: 50px;
+}
+
 
 #tabela {
     border: 1px solid black;
     border-collapse: collapse;
+    margin-right: 50px;
 }
 
 td {
     font-family: serif;
-    font-size: 14px;
+    font-size: 15px;
     padding:7px;
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+#segunda-parte p{
+    text-align: justify;
+    padding:2px 35px;
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 23px;
+}
 
 #rodape {
     background-color:#000;
- 
-    height: 180px;
+    height: 130px;
     justify-content: center;
-}
-
-
-
-
-
-/* modificar nomes de classe, revisar código e centralizar corretamente*/
-footer {
-    background-color:#000;
-    margin-top: 0;
-    height: 160px;
 }
 
 .texto-rodape {
@@ -148,47 +148,7 @@ footer {
     margin-right: 320px;
 }
 
-.footer-container{
-    position: relative;
-    border-top: 8px solid #909090;
-}
-
-
-.icons{
-    position: absolute;
-    top:84%;
-    left: 39%;
-   
-}
-
 .rodape-texto {
-    padding-top: 100px;
+    padding-top: 70px;
 }
 
-.icons ul{
-    display: flex;
-    list-style: none;
-    margin-top: 0;
-}
-
-.icons a{
-    display: block;
-    float: left;
-    width: 40px;
-    height: 40px;
-    border: 2px solid #909090;
-    border-radius: 20px;
-    margin-right: 7px;
-    margin-top: 30px;
-}
-
-.icons a:hover{
-    background-color:rgba(142, 90, 190, 0.822);
-}
-
-.icons i{
-    padding: 12px 11px;
-    font-size: 20px;
-    color: #909090;
-    text-align: center;
-}
