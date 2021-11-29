@@ -121,13 +121,16 @@ td {
     text-align: center;
 }
 
+
 #segunda-parte p{
     text-align: justify;
-    padding:2px 35px;
+    padding:2px 20px;
     font-size: 18px;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    line-height: 23px;
+    line-height: 30px;
 }
+
+
 
 #rodape {
     background-color:#000;
