@@ -24,7 +24,6 @@ Esse foi um projeto individual,que desenvolvido somente por Juliana Oliveira.
 Foi usado Visual Studio Code, além do Trello que auxiliou na organização das tarefas.
 ### Framework usado
 Nenhum.
-ara controle de versão. Para as versões disponíveis, observe as tags neste repositório.
 
 ## :footprints:Requisitos
 ### Metodologia usada
