@@ -10,7 +10,7 @@ Essa página foi feita usando HTML e CSS.
 Os commits foram feitos de acordo com os requisitos finalizados.
 ### Branch
 Todo o projeto foi feita na branch 'juliana-oliveira-lessons-learned', isso por conta da exigência do curso.
-###Instalação
+### Instalação
 Antes de realizar o projeto, precisei instalar as dependências usando npm install.
 ### Visualização do projeto
 O projeto poderá ser visualizado através da extensão do Visual Studio Code que permite criar um servidor HTTP para servir páginas HTML, chamada Live Server.
